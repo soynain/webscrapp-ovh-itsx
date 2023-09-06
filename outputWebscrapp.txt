@@ -1,0 +1,9 @@
+off "C:\xampp\htdocs\ScriptPhpWebscrapper\WebscrapperOvh\dist\main.exe"
+main.py:13: DeprecationWarning: Firefox will soon stop logging to geckodriver.log by default; Specify desired logs with log_output
+  service = Service(executable_path=r''+os.environ['RUTA_GECKO_INSTANCIA'])
+Traceback (most recent call last):
+  File "main.py", line 69, in <module>
+    os._exit()
+TypeError: _exit() missing required argument 'status' (pos 1)
+[11808] Failed to execute script 'main' due to unhandled exception!
+-----PROCESO FINALIZADO----
